@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "start": "node ./src/index.js",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
@@ -15,10 +14,12 @@
   "author": "Alexandre Xavier, Nicholas Araújo",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "mongodb-memory-server": "^6.9.2"
   }
 }
